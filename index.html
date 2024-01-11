@@ -13,26 +13,26 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-black">
-            <a class="navbar-brand griot" href="#">Griot Theater</a>
+            <a class="navbar-brand griot" href="./index.html">Griot Theater</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav bars">
                 <li class="nav-item active">
-                  <a class="nav-link text-white" href="#">Home</a>
+                  <div class="hovertip2"><a class="nav-link text-white" href="#">Home</a><span class="hovertext2">Pretend these lead somewhere</span></div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#">Features</a>
+                  <div class="hovertip2"><a class="nav-link text-white" href="#">Features</a><span class="hovertext2">Pretend these lead somewhere</span></div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#">Our Actors</a>
+                  <div class="hovertip2"><a class="nav-link text-white" href="#">Our Actors</a><span class="hovertext2">Pretend these lead somewhere</span></div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Mission</a>
+                    <div class="hovertip2"><a class="nav-link text-white" href="#">Mission</a><span class="hovertext2">Pretend these lead somewhere</span></div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Contact</a>
+                    <div class="hovertip2"><a class="nav-link text-white" href="#">Contact<span class="hovertext2">Pretend these lead somewhere</span></div></a>
                 </li>
               </ul>
             </div>
@@ -59,7 +59,7 @@
                     <div class="cost">$75</div>
                 </div>
                 <div class="col colbutton">
-                    <button class="readbutton">Read More</button>
+                    <button type="button" class="readbutton">Read More</button>
                 </div>
             </div>
             <div class="row myrow">
@@ -90,7 +90,7 @@
                     <button class="readbutton">Read More</button>
                 </div>
             </div>
-            <div class="row myrow">
+            <div class="row myrow" style="border-bottom: 0;">
                 <div class="col colpic">
                     <img class="showpic" src="./img/showimg.png" alt="Raisin in the Sun">
                 </div>
@@ -118,60 +118,43 @@
           <!-- Grid column -->
           <div class="col mapcol">
             <!-- Content -->
-            <img class="map" src="./img/MapImg.png" width="100%">
+            <a href="https://www.google.com/maps/place/233+N+State+St,+Chicago,+IL+60654/@41.8890273,-87.6279546,14.96z/data=!4m5!3m4!1s0x880e2cae2de558e1:0x3c2513b24f222835!8m2!3d41.8880558!4d-87.6268634?entry=ttu" target="_blank"><img class="map" src="./img/MapImg.png" width="100%"></a>
           </div>
           <!-- Grid column -->
   
           <!-- Grid column -->
           <div class="col">
             <!-- Links -->
-            <h6 class="infofoot">
+            <h6 class="foottop">
               Info
             </h6>
-            <p>
-              <i class="mapicon"></i><a href="#!" class="text-reset">Chicago, IL 60611 United States</a>
-            </p>
-            <p>
-              <i class="mailicon"></i><a href="#!" class="text-reset">example@example.com</a>
-            </p>
-            <p>
-              <i class="phoneicon"></i><a href="#!" class="text-reset">Call Us: 708-555-4488</a>
-            </p>
+            <div class="infodiv"><i class="mapicon"></i><a href="https://www.google.com/maps/place/233+N+State+St,+Chicago,+IL+60654/@41.8890273,-87.6279546,14.96z/data=!4m5!3m4!1s0x880e2cae2de558e1:0x3c2513b24f222835!8m2!3d41.8880558!4d-87.6268634?entry=ttu" target="_blank" class="footerlink">Chicago, IL 60611 United States</a></div>
+            <div class="infodiv"><i class="mailicon"></i><a href="mailto:example@example.com" class="footerlink">example@example.com</a></div>
+            <div class="infodiv"><i class="phoneicon"></i><a class="footerlink">Call Us: 708-555-4488</a></div>
           </div>
           <!-- Grid column -->
   
           <!-- Grid column -->
           <div class="col">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
+            <h6 class="foottop">
               Shows
             </h6>
-            <p>
-              <a href="#!" class="text-reset">The Piano Lesson</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">A Raisin In The Sun</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">FAME</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">The Color Purple</a>
-            </p>
+            <div class="showdiv"><div class="hovertip"><a href="#!" class="footerlink">The Piano Lesson</a><span class="hovertext">No relevant link :(</span></div></div>
+            <div class="showdiv"><div class="hovertip"><a href="#!" class="footerlink">A Raisin In The Sun</a><span class="hovertext">No relevant link :(</span></div></div>
+            <div class="showdiv"><div class="hovertip"><a href="#!" class="footerlink">FAME</a><span class="hovertext">No relevant link :(</span></div></div>
+            <div class="showdiv"><div class="hovertip"><a href="#!" class="footerlink">The Color Purple</a><span class="hovertext">No relevant link :(</span></div></div>
           </div>
           <!-- Grid column -->
   
           <!-- Grid column -->
           <div class="col">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">Social</h6>
-            <p><i class="fas"></i>Facebook</p>
-            <p>
-              <i class="fas"></i>
-              Twitter
-            </p>
-            <p><i class="fas"></i>Youtube</p>
-            <p><i class="fas"></i>Instagram</p>
+            <h6 class="foottop">Social</h6>
+            <div class="socialdiv"><a href="https://www.facebook.com" target="_blank" class="footerlink">Facebook</a></div>
+            <div class="socialdiv"><a href="https://www.twitter.com" target="_blank" class="footerlink">Twitter</a></div>
+            <div class="socialdiv"><a href="https://www.youtube.com" target="_blank" class="footerlink">Youtube</a></div>
+            <div class="socialdiv"><a href="https://www.instagram.com" target="_blank" class="footerlink">Instagram</a></div>
           </div>
           <!-- Grid column -->
         </div>

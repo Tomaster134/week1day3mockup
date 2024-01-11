@@ -17,15 +17,17 @@
 }
 
 .nav-link {
-    margin: 0 25px;
+    margin: 0 1.5rem;
 }
 
 .ftshows {
     position: relative;
     text-align: center;
     color: white;
-    background-color: black;
-    box-shadow: 0 0 10px 40px rgba(0,0,0,0.75);
+    background-color: rgba(0, 0, 0, .99);
+    box-shadow:
+    0 0 10px 40px rgba(0,0,0,0.75),
+    0 0 5px 5px rgba(0, 0, 0, .75);
     clip-path: inset(0px -50px 0px -50px);
     /* box-shadow: 10px 0 10px 10px black, -10px 0 10px 10px black; */
 }
@@ -109,26 +111,26 @@
 }
 
 .raisin {
-    font-size: 24px;
+    font-size: 2rem;
     position: relative;
     bottom: 5%;
     font-weight: 300;
 }
 
 .date {
-    font-size: 14px;
+    font-size: .9rem;
     font-weight: 500;
     margin-bottom: 1%;
 }
 
 .location {
-    font-size: 14px;
+    font-size: .9rem;
 }
 
 .cost {
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 300;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 .readbutton {
@@ -139,6 +141,15 @@
     box-shadow: 0;
     position: relative;
     bottom: 5%
+}
+
+.readbutton:hover {
+    background-color: #fce15b;
+}
+
+.readbutton:active {
+    background-color: #ce9802;
+    box-shadow: 0 0 1px 1px rgb(104, 137, 238), 0 0 0 2px white inset;
 }
 
 .feet {
@@ -152,7 +163,8 @@
 }
 
 .mapcol {
-    margin-right: 25px;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
 }
 
 .mapicon {
@@ -185,8 +197,72 @@
     display: inline-block;
 }
 
-.infofoot {
+.foottop {
     font-size: 30px;
-    font-weight: 400;
-    
+    font-weight: 400;    
+}
+
+.infodiv {
+    margin: 10% 0;
+}
+
+.footerlink {
+    text-decoration: none;
+    color: white;
+}
+
+.showdiv {
+    margin: 14.2% 0;
+}
+
+.socialdiv {
+    margin: 14.2% 0;
+}
+
+.hovertip {
+    position: relative;
+    display: inline-block;
+}
+
+.hovertip .hovertext {
+    visibility: hidden;
+    background-color: #ebb625;
+    color: #000;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    width: 120px;
+    bottom: 120%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.hovertip:hover .hovertext {
+    visibility: visible;
+}
+
+.hovertip2 {
+    position: relative;
+    display: inline-block;
+}
+
+.hovertip2 .hovertext2 {
+    visibility: hidden;
+    background-color: #ebb625;
+    color: #000;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    width: 120px;
+    top: 120%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.hovertip2:hover .hovertext2 {
+    visibility: visible;
 }
