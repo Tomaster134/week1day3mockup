@@ -5,11 +5,28 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.griot {
+    margin-left: 4%;
+    font-size: 1.5em;
+}
+
+.bars {
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+.nav-link {
+    margin: 0 25px;
+}
+
 .ftshows {
     position: relative;
     text-align: center;
     color: white;
     background-color: black;
+    box-shadow: 0 0 10px 40px rgba(0,0,0,0.75);
+    clip-path: inset(0px -50px 0px -50px);
     /* box-shadow: 10px 0 10px 10px black, -10px 0 10px 10px black; */
 }
 
@@ -28,17 +45,18 @@
 } */
 
 .datehead {
-    width: 80%;
+    width: 80vw;
     background-color: #f7f7f7;
     border: rgb(44,44,44,.1) 1px solid;
     border-radius: 1px;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 2%;
+    margin-bottom: 1%;
     padding-left: 30px;
 }
 
 .curtains {
     background-image: url(./img/curtains.webp);
+    background-position: center top;
     z-index: -1;
     height: 648px;
     width: 100%;
@@ -68,6 +86,7 @@
 .colpic {
     flex-grow: 1;
     margin-bottom: 4%;
+    margin-top: 4%;
 }
 
 .showpic {
@@ -75,6 +94,7 @@
 }
 
 .colinfo {
+    margin-top: 3%;
     flex-grow: 2;
     justify-content: space-around;
     display: flex;
@@ -119,4 +139,54 @@
     box-shadow: 0;
     position: relative;
     bottom: 5%
+}
+
+.feet {
+    padding-top: 20px;
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+.map {
+    border-radius: 15px;
+}
+
+.mapcol {
+    margin-right: 25px;
+}
+
+.mapicon {
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+    background-image: url(./img/MapPoint.jpg);
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+
+.mailicon {
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+    background-image: url(./img/mail-icon.webp);
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+
+.phoneicon {
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+    background-image: url(./img/phone-icon.jpg);
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+
+.infofoot {
+    font-size: 30px;
+    font-weight: 400;
+    
 }
