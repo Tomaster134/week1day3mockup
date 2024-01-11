@@ -1,171 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Theatre!</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
-            <a class="navbar-brand griot" href="./index.html">Griot Theater</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav bars">
-                <li class="nav-item active">
-                  <div class="hovertip2"><a class="nav-link text-white" href="#">Home</a><span class="hovertext2">Pretend these lead somewhere</span></div>
-                </li>
-                <li class="nav-item">
-                  <div class="hovertip2"><a class="nav-link text-white" href="#">Features</a><span class="hovertext2">Pretend these lead somewhere</span></div>
-                </li>
-                <li class="nav-item">
-                  <div class="hovertip2"><a class="nav-link text-white" href="#">Our Actors</a><span class="hovertext2">Pretend these lead somewhere</span></div>
-                </li>
-                <li class="nav-item">
-                    <div class="hovertip2"><a class="nav-link text-white" href="#">Mission</a><span class="hovertext2">Pretend these lead somewhere</span></div>
-                </li>
-                <li class="nav-item">
-                    <div class="hovertip2"><a class="nav-link text-white" href="#">Contact<span class="hovertext2">Pretend these lead somewhere</span></div></a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <a class="navbar-brand griot" href="./index.html">Griot Theater</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav bars">
+            <li class="nav-item active">
+              <div class="hovertip2">
+                <a class="nav-link text-white" href="#">Home</a
+                ><span class="hovertext2">Pretend these lead somewhere</span>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="hovertip2">
+                <a class="nav-link text-white" href="#">Features</a
+                ><span class="hovertext2">Pretend these lead somewhere</span>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="hovertip2">
+                <a class="nav-link text-white" href="#">Our Actors</a
+                ><span class="hovertext2">Pretend these lead somewhere</span>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="hovertip2">
+                <a class="nav-link text-white" href="#">Mission</a
+                ><span class="hovertext2">Pretend these lead somewhere</span>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="hovertip2">
+                <a class="nav-link text-white" href="#">Contact</a
+                ><span class="hovertext2">Pretend these lead somewhere</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <div class="curtains"></div>
     <div class="container-xl ftshows">
-        <img src="./img/theaterbg.png" alt="Featured shows!" width="100%">
-        <div class="text_center">Featured Shows</div>
+      <img src="./img/theaterbg.png" alt="Featured shows!" width="100%" />
+      <div class="text_center">Featured Shows</div>
     </div>
     <main>
-        <div class="container text-left datehead">
-            April 2020
+      <div class="container text-left datehead">April 2020</div>
+      <div class="container">
+        <div class="row myrow">
+          <div class="col colpic">
+            <img
+              class="showpic"
+              src="./img/showimg.png"
+              alt="Raisin in the Sun"
+            />
+          </div>
+          <div class="col colinfo">
+            <div class="raisin">A Raisin In The Sun</div>
+            <div class="date">April 6, 2020 - March 12, 2021</div>
+            <div class="location">Griot Theater, 233 State St. Chicago IL</div>
+            <div class="cost">$75</div>
+          </div>
+          <div class="col colbutton">
+            <button type="button" class="readbutton">Read More</button>
+          </div>
         </div>
-        <div class="container">
-            <div class="row myrow">
-                <div class="col colpic">
-                    <img class="showpic" src="./img/showimg.png" alt="Raisin in the Sun">
-                </div>
-                <div class="col colinfo">
-                    <div class="raisin">A Raisin In The Sun</div>
-                    <div class="date">April 6, 2020 - March 12, 2021</div>
-                    <div class="location">Griot Theater, 233 State St. Chicago IL</div>
-                    <div class="cost">$75</div>
-                </div>
-                <div class="col colbutton">
-                    <button type="button" class="readbutton">Read More</button>
-                </div>
-            </div>
-            <div class="row myrow">
-                <div class="col colpic">
-                    <img class="showpic" src="./img/showimg.png" alt="Raisin in the Sun">
-                </div>
-                <div class="col colinfo">
-                    <div class="raisin">A Raisin In The Sun</div>
-                    <div class="date">April 6, 2020 - March 12, 2021</div>
-                    <div class="location">Griot Theater, 233 State St. Chicago IL</div>
-                    <div class="cost">$75</div>
-                </div>
-                <div class="col colbutton">
-                    <button class="readbutton">Read More</button>
-                </div>
-            </div>
-            <div class="row myrow">
-                <div class="col colpic">
-                    <img class="showpic" src="./img/showimg.png" alt="Raisin in the Sun">
-                </div>
-                <div class="col colinfo">
-                    <div class="raisin">A Raisin In The Sun</div>
-                    <div class="date">April 6, 2020 - March 12, 2021</div>
-                    <div class="location">Griot Theater, 233 State St. Chicago IL</div>
-                    <div class="cost">$75</div>
-                </div>
-                <div class="col colbutton">
-                    <button class="readbutton">Read More</button>
-                </div>
-            </div>
-            <div class="row myrow" style="border-bottom: 0;">
-                <div class="col colpic">
-                    <img class="showpic" src="./img/showimg.png" alt="Raisin in the Sun">
-                </div>
-                <div class="col colinfo">
-                    <div class="raisin">A Raisin In The Sun</div>
-                    <div class="date">April 6, 2020 - March 12, 2021</div>
-                    <div class="location">Griot Theater, 233 State St. Chicago IL</div>
-                    <div class="cost">$75</div>
-                </div>
-                <div class="col colbutton">
-                    <button class="readbutton">Read More</button>
-                </div>
-            </div>
-            
+        <div class="row myrow">
+          <div class="col colpic">
+            <img
+              class="showpic"
+              src="./img/showimg.png"
+              alt="Raisin in the Sun"
+            />
+          </div>
+          <div class="col colinfo">
+            <div class="raisin">A Raisin In The Sun</div>
+            <div class="date">April 6, 2020 - March 12, 2021</div>
+            <div class="location">Griot Theater, 233 State St. Chicago IL</div>
+            <div class="cost">$75</div>
+          </div>
+          <div class="col colbutton">
+            <button class="readbutton">Read More</button>
+          </div>
         </div>
+        <div class="row myrow">
+          <div class="col colpic">
+            <img
+              class="showpic"
+              src="./img/showimg.png"
+              alt="Raisin in the Sun"
+            />
+          </div>
+          <div class="col colinfo">
+            <div class="raisin">A Raisin In The Sun</div>
+            <div class="date">April 6, 2020 - March 12, 2021</div>
+            <div class="location">Griot Theater, 233 State St. Chicago IL</div>
+            <div class="cost">$75</div>
+          </div>
+          <div class="col colbutton">
+            <button class="readbutton">Read More</button>
+          </div>
+        </div>
+        <div class="row myrow" style="border-bottom: 0">
+          <div class="col colpic">
+            <img
+              class="showpic"
+              src="./img/showimg.png"
+              alt="Raisin in the Sun"
+            />
+          </div>
+          <div class="col colinfo">
+            <div class="raisin">A Raisin In The Sun</div>
+            <div class="date">April 6, 2020 - March 12, 2021</div>
+            <div class="location">Griot Theater, 233 State St. Chicago IL</div>
+            <div class="cost">$75</div>
+          </div>
+          <div class="col colbutton">
+            <button class="readbutton">Read More</button>
+          </div>
+        </div>
+      </div>
     </main>
     <!-- Footer -->
-<footer class="text-center text-lg-start feet text-white">
- 
-    <!-- Section: Links  -->
-    <section class="">
-      <div class="container text-center text-md-start mt-5">
-        <!-- Grid row -->
-        <div class="row mt-3">
-          <!-- Grid column -->
-          <div class="col mapcol">
-            <!-- Content -->
-            <a href="https://www.google.com/maps/place/233+N+State+St,+Chicago,+IL+60654/@41.8890273,-87.6279546,14.96z/data=!4m5!3m4!1s0x880e2cae2de558e1:0x3c2513b24f222835!8m2!3d41.8880558!4d-87.6268634?entry=ttu" target="_blank"><img class="map" src="./img/MapImg.png" width="100%"></a>
+    <footer class="text-center text-lg-start feet text-white">
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col mapcol">
+              <!-- Content -->
+              <a
+                href="https://www.google.com/maps/place/233+N+State+St,+Chicago,+IL+60654/@41.8890273,-87.6279546,14.96z/data=!4m5!3m4!1s0x880e2cae2de558e1:0x3c2513b24f222835!8m2!3d41.8880558!4d-87.6268634?entry=ttu"
+                target="_blank"
+                ><img class="map" src="./img/MapImg.png" width="100%"
+              /></a>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col">
+              <!-- Links -->
+              <h6 class="foottop">Info</h6>
+              <div class="infodiv">
+                <i class="mapicon"></i
+                ><a
+                  href="https://www.google.com/maps/place/233+N+State+St,+Chicago,+IL+60654/@41.8890273,-87.6279546,14.96z/data=!4m5!3m4!1s0x880e2cae2de558e1:0x3c2513b24f222835!8m2!3d41.8880558!4d-87.6268634?entry=ttu"
+                  target="_blank"
+                  class="footerlink"
+                  >Chicago, IL 60611 United States</a
+                >
+              </div>
+              <div class="infodiv">
+                <i class="mailicon"></i
+                ><a href="mailto:example@example.com" class="footerlink"
+                  >example@example.com</a
+                >
+              </div>
+              <div class="infodiv">
+                <i class="phoneicon"></i
+                ><a class="footerlink">Call Us: 708-555-4488</a>
+              </div>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col">
+              <!-- Links -->
+              <h6 class="foottop">Shows</h6>
+              <div class="showdiv">
+                <div class="hovertip">
+                  <a href="#!" class="footerlink">The Piano Lesson</a
+                  ><span class="hovertext">No relevant link :(</span>
+                </div>
+              </div>
+              <div class="showdiv">
+                <div class="hovertip">
+                  <a href="#!" class="footerlink">A Raisin In The Sun</a
+                  ><span class="hovertext">No relevant link :(</span>
+                </div>
+              </div>
+              <div class="showdiv">
+                <div class="hovertip">
+                  <a href="#!" class="footerlink">FAME</a
+                  ><span class="hovertext">No relevant link :(</span>
+                </div>
+              </div>
+              <div class="showdiv">
+                <div class="hovertip">
+                  <a href="#!" class="footerlink">The Color Purple</a
+                  ><span class="hovertext">No relevant link :(</span>
+                </div>
+              </div>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col">
+              <!-- Links -->
+              <h6 class="foottop">Social</h6>
+              <div class="socialdiv">
+                <a
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  class="footerlink"
+                  >Facebook</a
+                >
+              </div>
+              <div class="socialdiv">
+                <a
+                  href="https://www.twitter.com"
+                  target="_blank"
+                  class="footerlink"
+                  >Twitter</a
+                >
+              </div>
+              <div class="socialdiv">
+                <a
+                  href="https://www.youtube.com"
+                  target="_blank"
+                  class="footerlink"
+                  >Youtube</a
+                >
+              </div>
+              <div class="socialdiv">
+                <a
+                  href="https://www.instagram.com"
+                  target="_blank"
+                  class="footerlink"
+                  >Instagram</a
+                >
+              </div>
+            </div>
+            <!-- Grid column -->
           </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col">
-            <!-- Links -->
-            <h6 class="foottop">
-              Info
-            </h6>
-            <div class="infodiv"><i class="mapicon"></i><a href="https://www.google.com/maps/place/233+N+State+St,+Chicago,+IL+60654/@41.8890273,-87.6279546,14.96z/data=!4m5!3m4!1s0x880e2cae2de558e1:0x3c2513b24f222835!8m2!3d41.8880558!4d-87.6268634?entry=ttu" target="_blank" class="footerlink">Chicago, IL 60611 United States</a></div>
-            <div class="infodiv"><i class="mailicon"></i><a href="mailto:example@example.com" class="footerlink">example@example.com</a></div>
-            <div class="infodiv"><i class="phoneicon"></i><a class="footerlink">Call Us: 708-555-4488</a></div>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col">
-            <!-- Links -->
-            <h6 class="foottop">
-              Shows
-            </h6>
-            <div class="showdiv"><div class="hovertip"><a href="#!" class="footerlink">The Piano Lesson</a><span class="hovertext">No relevant link :(</span></div></div>
-            <div class="showdiv"><div class="hovertip"><a href="#!" class="footerlink">A Raisin In The Sun</a><span class="hovertext">No relevant link :(</span></div></div>
-            <div class="showdiv"><div class="hovertip"><a href="#!" class="footerlink">FAME</a><span class="hovertext">No relevant link :(</span></div></div>
-            <div class="showdiv"><div class="hovertip"><a href="#!" class="footerlink">The Color Purple</a><span class="hovertext">No relevant link :(</span></div></div>
-          </div>
-          <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col">
-            <!-- Links -->
-            <h6 class="foottop">Social</h6>
-            <div class="socialdiv"><a href="https://www.facebook.com" target="_blank" class="footerlink">Facebook</a></div>
-            <div class="socialdiv"><a href="https://www.twitter.com" target="_blank" class="footerlink">Twitter</a></div>
-            <div class="socialdiv"><a href="https://www.youtube.com" target="_blank" class="footerlink">Youtube</a></div>
-            <div class="socialdiv"><a href="https://www.instagram.com" target="_blank" class="footerlink">Instagram</a></div>
-          </div>
-          <!-- Grid column -->
+          <!-- Grid row -->
         </div>
-        <!-- Grid row -->
-      </div>
-    </section>
-    <!-- Section: Links  -->
+      </section>
+      <!-- Section: Links  -->
+    </footer>
+    <!-- Footer -->
 
-  </footer>
-  <!-- Footer -->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

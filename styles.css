@@ -1,43 +1,41 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .griot {
-    margin-left: 4%;
-    font-size: 1.5em;
+  margin-left: 4%;
+  font-size: 1.5em;
 }
 
 .bars {
-    display: flex;
-    justify-content: center;
-    margin-left: 25%;
+  display: flex;
+  justify-content: center;
+  margin-left: 25%;
 }
 
 .nav-link {
-    margin: 0 1.5rem;
+  margin: 0 1.5rem;
 }
 
 .ftshows {
-    position: relative;
-    text-align: center;
-    color: white;
-    background-color: rgba(0, 0, 0, .99);
-    box-shadow:
-    0 0 10px 40px rgba(0,0,0,0.75),
-    0 0 5px 5px rgba(0, 0, 0, .75);
-    clip-path: inset(0px -50px 0px -50px);
-    /* box-shadow: 10px 0 10px 10px black, -10px 0 10px 10px black; */
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.99);
+  box-shadow: 0 0 10px 40px rgba(0, 0, 0, 0.75), 0 0 5px 5px rgba(0, 0, 0, 0.75);
+  clip-path: inset(0px -50px 0px -50px);
+  /* box-shadow: 10px 0 10px 10px black, -10px 0 10px 10px black; */
 }
 
 .text_center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 3.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3.5rem;
 }
 
 /* .flex_total {
@@ -47,222 +45,221 @@
 } */
 
 .datehead {
-    width: 80vw;
-    background-color: #f7f7f7;
-    border: rgb(44,44,44,.1) 1px solid;
-    border-radius: 1px;
-    margin-top: 2%;
-    margin-bottom: 1%;
-    padding-left: 30px;
+  width: 80vw;
+  background-color: #f7f7f7;
+  border: rgb(44, 44, 44, 0.1) 1px solid;
+  border-radius: 1px;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  padding-left: 30px;
 }
 
 .curtains {
-    background-image: url(./img/curtains.webp);
-    background-position: center top;
-    z-index: -1;
-    height: 648px;
-    width: 100%;
-    position: absolute;
-    visibility: hidden;
-    
+  background-image: url(./img/curtains.webp);
+  background-position: center top;
+  z-index: -1;
+  height: 648px;
+  width: 100%;
+  position: absolute;
+  visibility: hidden;
 }
 
 @media (min-width: 1199px) {
-    .curtains {
-        height: 558px;
-        visibility: visible;
-    }
+  .curtains {
+    height: 558px;
+    visibility: visible;
+  }
 }
 
 @media (min-width: 1399px) {
-    .curtains {
-        height: 648px;
-    }
+  .curtains {
+    height: 648px;
+  }
 }
 
 .myrow {
-    border-bottom: 1px solid black;
-    padding: 0
+  border-bottom: 1px solid black;
+  padding: 0;
 }
 
 .colpic {
-    flex-grow: 1;
-    margin-bottom: 4%;
-    margin-top: 4%;
+  flex-grow: 1;
+  margin-bottom: 4%;
+  margin-top: 4%;
 }
 
 .showpic {
-    width: 100%;
+  width: 100%;
 }
 
 .colinfo {
-    margin-top: 3%;
-    flex-grow: 2;
-    justify-content: space-around;
-    display: flex;
-    flex-direction: column;
+  margin-top: 3%;
+  flex-grow: 2;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
 }
 
 .colbutton {
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .raisin {
-    font-size: 2rem;
-    position: relative;
-    bottom: 5%;
-    font-weight: 300;
+  font-size: 2rem;
+  position: relative;
+  bottom: 5%;
+  font-weight: 300;
 }
 
 .date {
-    font-size: .9rem;
-    font-weight: 500;
-    margin-bottom: 1%;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 1%;
 }
 
 .location {
-    font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .cost {
-    font-size: 1.2rem;
-    font-weight: 300;
-    margin-bottom: 10%;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 10%;
 }
 
 .readbutton {
-    padding: 10px;
-    color: white;
-    background-color: #ebb625;
-    border: rgb(112,112,112,.5) solid 1px;
-    box-shadow: 0;
-    position: relative;
-    bottom: 5%
+  padding: 10px;
+  color: white;
+  background-color: #ebb625;
+  border: rgb(112, 112, 112, 0.5) solid 1px;
+  box-shadow: 0;
+  position: relative;
+  bottom: 5%;
 }
 
 .readbutton:hover {
-    background-color: #fce15b;
+  background-color: #fce15b;
 }
 
 .readbutton:active {
-    background-color: #ce9802;
-    box-shadow: 0 0 1px 1px rgb(104, 137, 238), 0 0 0 2px white inset;
+  background-color: #ce9802;
+  box-shadow: 0 0 1px 1px rgb(104, 137, 238), 0 0 0 2px white inset;
 }
 
 .feet {
-    padding-top: 20px;
-    background-color: black;
-    padding-bottom: 50px;
+  padding-top: 20px;
+  background-color: black;
+  padding-bottom: 50px;
 }
 
 .map {
-    border-radius: 15px;
+  border-radius: 15px;
 }
 
 .mapcol {
-    margin-right: 2.5%;
-    margin-top: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 2.5%;
 }
 
 .mapicon {
-    margin-right: 10px;
-    position: relative;
-    top: 5px;
-    background-image: url(./img/MapPoint.jpg);
-    height: 30px;
-    width: 30px;
-    display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  top: 5px;
+  background-image: url(./img/MapPoint.jpg);
+  height: 30px;
+  width: 30px;
+  display: inline-block;
 }
 
 .mailicon {
-    margin-right: 10px;
-    position: relative;
-    top: 10px;
-    background-image: url(./img/mail-icon.webp);
-    height: 30px;
-    width: 30px;
-    display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  top: 10px;
+  background-image: url(./img/mail-icon.webp);
+  height: 30px;
+  width: 30px;
+  display: inline-block;
 }
 
 .phoneicon {
-    margin-right: 10px;
-    position: relative;
-    top: 10px;
-    background-image: url(./img/phone-icon.jpg);
-    height: 30px;
-    width: 30px;
-    display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  top: 10px;
+  background-image: url(./img/phone-icon.jpg);
+  height: 30px;
+  width: 30px;
+  display: inline-block;
 }
 
 .foottop {
-    font-size: 30px;
-    font-weight: 400;    
+  font-size: 30px;
+  font-weight: 400;
 }
 
 .infodiv {
-    margin: 10% 0;
+  margin: 10% 0;
 }
 
 .footerlink {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .showdiv {
-    margin: 14.2% 0;
+  margin: 14.2% 0;
 }
 
 .socialdiv {
-    margin: 14.2% 0;
+  margin: 14.2% 0;
 }
 
 .hovertip {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .hovertip .hovertext {
-    visibility: hidden;
-    background-color: #ebb625;
-    color: #000;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-    position: absolute;
-    z-index: 1;
-    width: 120px;
-    bottom: 120%;
-    left: 50%;
-    margin-left: -60px;
+  visibility: hidden;
+  background-color: #ebb625;
+  color: #000;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  width: 120px;
+  bottom: 120%;
+  left: 50%;
+  margin-left: -60px;
 }
 
 .hovertip:hover .hovertext {
-    visibility: visible;
+  visibility: visible;
 }
 
 .hovertip2 {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .hovertip2 .hovertext2 {
-    visibility: hidden;
-    background-color: #ebb625;
-    color: #000;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-    position: absolute;
-    z-index: 1;
-    width: 120px;
-    top: 120%;
-    left: 50%;
-    margin-left: -60px;
+  visibility: hidden;
+  background-color: #ebb625;
+  color: #000;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  width: 120px;
+  top: 120%;
+  left: 50%;
+  margin-left: -60px;
 }
 
 .hovertip2:hover .hovertext2 {
-    visibility: visible;
+  visibility: visible;
 }
